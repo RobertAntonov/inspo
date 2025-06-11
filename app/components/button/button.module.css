@@ -119,7 +119,7 @@
       }
 
       &:hover::after {
-        background: color-mix(in lab, var(--text) 10%, transparent);
+        background: color-mix(in lab, var(--text) 0%, transparent);
       }
     }
 

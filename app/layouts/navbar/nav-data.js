@@ -2,20 +2,16 @@ import config from '~/config.json';
 
 export const navLinks = [
   {
-    label: 'Projects',
-    pathname: '/#project-1',
+    label: 'contact',
+    pathname: '/#contact',
   },
   {
-    label: 'Details',
-    pathname: '/#details',
+    label: 'journal',
+    pathname: '/projects/slice',
   },
   {
-    label: 'Articles',
-    pathname: '/articles',
-  },
-  {
-    label: 'Contact',
-    pathname: '/contact',
+    label: 'work',
+    pathname: '/projects/smart-sparrow',
   },
 ];
 
