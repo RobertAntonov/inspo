@@ -21,18 +21,18 @@ export const navLinks = [
 
 export const socialLinks = [
   {
-    label: 'Bluesky',
-    url: `https://bsky.app/profile/${config.bluesky}`,
-    icon: 'bluesky',
+    label: 'Instagram',
+    url: `https://www.instagram.com/robert_antonov/`,
+    icon: 'instagram',
   },
   {
-    label: 'Figma',
+    label: 'Behance',
     url: `https://www.figma.com/${config.figma}`,
-    icon: 'figma',
+    icon: 'behance',
   },
   {
-    label: 'Github',
+    label: 'Facebook',
     url: `https://github.com/${config.github}`,
-    icon: 'github',
+    icon: 'facebook',
   },
 ];
