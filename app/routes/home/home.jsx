@@ -153,7 +153,7 @@ export const Home = () => {
         buttonText="View project"
         buttonLink="/projects/slice"
         model={{
-          type: 'laptop',
+          type: 'krokus',
           alt: 'Annotating a biomedical image in the Slice app',
           textures: [
             {

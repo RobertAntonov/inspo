@@ -122,6 +122,7 @@
 
       left: 0;
     }
+    
 
     @media (--mediaTablet) {
       --width: 108%;

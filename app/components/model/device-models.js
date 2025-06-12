@@ -1,5 +1,6 @@
 import iphone11 from '~/assets/iphone-11.glb';
 import macbookPro from '~/assets/macbook-pro.glb';
+import krokus from '~/assets/krokus.glb'
 
 export const ModelAnimationType = {
   SpringUp: 'spring-up',
@@ -16,6 +17,13 @@ export const deviceModels = {
   },
   laptop: {
     url: macbookPro,
+    width: 1280,
+    height: 800,
+    position: { x: 0, y: 0, z: 0 },
+    animation: ModelAnimationType.LaptopOpen,
+  },
+  krokus: {
+    url: krokus,
     width: 1280,
     height: 800,
     position: { x: 0, y: 0, z: 0 },

@@ -131,6 +131,34 @@ export function ProjectSummary({
             </div>
           </>
         )}
+        {model.type === 'krokus' && (
+  <>
+    {renderKatakana('krokus', visible)}
+    <div className={styles.model} data-device="krokus">
+      {!modelLoaded && (
+        <Loader center className={styles.loader} data-visible={visible} />
+      )}
+      {isHydrated && visible && (
+        <Suspense>
+          <Model
+            alt={model.alt}
+            cameraPosition={{ x: 0, y: 0, z: 8 }}     // adjust if needed
+            showDelay={700}
+            onLoad={handleModelLoad}
+            show={visible}
+            models={[
+              {
+                ...deviceModels.krokus,
+                texture: { ...model.textures[0], sizes: laptopSizes },
+              },
+            ]}
+          />
+        </Suspense>
+      )}
+    </div>
+  </>
+)}
+
         {model.type === 'phone' && (
           <>
             {renderKatakana('phone', visible)}
