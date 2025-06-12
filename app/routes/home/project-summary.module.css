@@ -110,6 +110,22 @@
     }
   }
 
+  &[data-device='krokus'] {
+    top: 6%;
+    left: 14%;
+
+    @media (--mediaDesktop) {
+      --width: 180%;
+    }
+
+    @media (--mediaTablet) {
+      --width: 140%;
+
+      top: 10%;
+      left: 0;
+    }
+  }
+
   &[data-device='phone'] {
     --width: 116%;
     --aspectRatio: 7 / 10;
@@ -159,6 +175,24 @@
   }
 
   &[data-device='laptop'] {
+    position: absolute;
+    width: 100%;
+    right: -36%;
+    bottom: 24%;
+    transform: translateY(50%);
+
+    @media (--mediaTablet) {
+      width: 80%;
+      right: -10%;
+      bottom: 18%;
+    }
+
+    @media (--mediaMobile) {
+      right: 0;
+    }
+  }
+
+  &[data-device='krokus'] {
     position: absolute;
     width: 100%;
     right: -36%;
