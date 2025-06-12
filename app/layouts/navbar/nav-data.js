@@ -3,7 +3,7 @@ import config from '~/config.json';
 export const navLinks = [
   {
     label: 'contact',
-    pathname: '/#contact',
+    pathname: '/contact',
   },
   {
     label: 'journal',
@@ -13,6 +13,10 @@ export const navLinks = [
     label: 'work',
     pathname: '/projects/smart-sparrow',
   },
+  {
+    label: 'home',
+    pathname: '/'
+  }
 ];
 
 export const socialLinks = [
@@ -23,12 +27,12 @@ export const socialLinks = [
   },
   {
     label: 'Behance',
-    url: `https://www.figma.com/${config.figma}`,
+    url: `https://www.behance.net/robertantonov0`,
     icon: 'behance',
   },
   {
     label: 'Facebook',
-    url: `https://github.com/${config.github}`,
+    url: `https://www.facebook.com/robertantonov000/`,
     icon: 'facebook',
   },
 ];
