@@ -14,6 +14,7 @@ export const deviceModels = {
     height: 512,
     position: { x: 0, y: 0, z: 0 },
     animation: ModelAnimationType.SpringUp,
+    tintColor: 0x1f2025,
   },
   laptop: {
     url: macbookPro,
@@ -21,6 +22,7 @@ export const deviceModels = {
     height: 800,
     position: { x: 0, y: 0, z: 0 },
     animation: ModelAnimationType.LaptopOpen,
+    tintColor: 0x1f2025,
   },
   krokus: {
     url: krokus,

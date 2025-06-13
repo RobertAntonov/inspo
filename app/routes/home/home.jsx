@@ -148,13 +148,13 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
-        buttonText="View project"
+        title="Shot on Film"
+        description="Yes, actual film. Developed with questionable chemicals and poor life choices."
+        buttonText="View gallery"
         buttonLink="/projects/slice"
         model={{
           type: 'krokus',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: 'A fed2 sovietic film 35mm camera',
           textures: [
             {
               srcSet: `${sliceTexture} 800w, ${sliceTextureLarge} 1920w`,
