@@ -56,7 +56,7 @@ export function ProjectSummary({
         style={cssProps({ opacity: svgOpacity })}
         className={styles.svg}
         data-device={device}
-        viewBox="0 0 751 136"
+        viewBox="0 0 1400 304"
       >
         <use href={`${katakana}#katakana-project`} />
       </svg>
