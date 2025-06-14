@@ -125,6 +125,22 @@
     }
   }
 
+  &[data-device='krokus'] {
+    top: 6%;
+    left: 14%;
+
+    @media (--mediaDesktop) {
+      --width: 180%;
+    }
+
+    @media (--mediaTablet) {
+      --width: 140%;
+
+      top: 10%;
+      left: 0;
+    }
+  }
+
   &[data-device='phone'] {
     --width: 116%;
     --aspectRatio: 7 / 10;
